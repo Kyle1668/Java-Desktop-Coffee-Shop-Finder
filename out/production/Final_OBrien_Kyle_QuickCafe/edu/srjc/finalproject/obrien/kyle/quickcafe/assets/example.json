@@ -1,0 +1,835 @@
+// Example of a request for coffee shops in Santa Rosa
+
+{
+  "html_attributions" : [],
+  "next_page_token" : "CpQCBAEAACIX78MysP9kwCLN8gyYXRqKSDGD3uO92IwoaAUPW2IfHpDxXHeP-4y90Pciiut5iovKQOA9nrsWgXxLI_PqOQcDbfkqrOKiFj5tn8DOU3SRXxmDwdxPrSW3foFp4vRFbUE7VJ_x7t_EMynbIZ5ygXZ9l6hQwS16eXIYINfEHZPIJFaOTXhd45xGILZxEhUluI4qWa7W89xvLIn-fAP8JNMfssozIzaQ53JFSIy2gV9JwrEw90-Sct9rbK-waDUFdCn0QoXeFUtL2TgYFff7s2Q3VgY6bO6GdxrP4GoUHC_KiSCeF53uRJx8tvGH0jR_dwz-2SfYTWIZ7FnOw9LnHzjZhrDN4F5WRwZeFGtVblHuEhBwl29jFWP6ZJqGXwZx5rIgGhSWtVNao1Rn_riN89YTi0EqHNBTTQ",
+  "results" : [
+    {
+      "formatted_address" : "2365 Midway Dr, Santa Rosa, CA 95405, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 38.44650499999999,
+          "lng" : -122.687114
+        },
+        "viewport" : {
+          "northeast" : {
+            "lat" : 38.44775988029149,
+            "lng" : -122.6857230197085
+          },
+          "southwest" : {
+            "lat" : 38.44506191970849,
+            "lng" : -122.6884209802915
+          }
+        }
+      },
+      "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+      "id" : "00b66d3bf301a407de0be8b7a052e2e8e455b4bb",
+      "name" : "Acre Coffee",
+      "opening_hours" : {
+        "open_now" : true,
+        "weekday_text" : []
+      },
+      "photos" : [
+        {
+          "height" : 2988,
+          "html_attributions" : [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/106234677322088610538/photos\"\u003eBenjy Portnoy\u003c/a\u003e"
+          ],
+          "photo_reference" : "CmRZAAAAqvEjADuK8NXROIa-84chQLuUT6tResk97pJNqbNPKyZlrz7wzBp7Xuca-164c3ailB5GPiRRrh-Om6NXPFnNm6cWgpgz5aE_x7DoCuHu3NCz-oPJ8SDGMnV07MJzLDo0EhDVRrrpsin8VycEJw7vavz7GhR3BiZMlv7WJoQFyuvLB17zEsucBA",
+          "width" : 5312
+        }
+      ],
+      "place_id" : "ChIJfUXnOHZIhIARcFMrLsNWWcA",
+      "rating" : 4.4,
+      "reference" : "CmRSAAAA3I1LBbYCRPmbwczkBr1byx2Ao6SdgEThW-gdMyxJLI6hJT55TYd3Wg4txBPkWOVwHIvkaMZY5s6gj9gea5ZQRaTPCRsu6C9o8DNhRHj4ANzuEnOhFs7mvoXXtG1Df4SyEhBWFuJVCI5oZoAIXgAGx0T9GhRX_yXEt30X9_ShlkBD8y6j1Yk1rA",
+      "types" : [ "cafe", "food", "store", "point_of_interest", "establishment" ]
+    },
+    {
+      "formatted_address" : "10 4th St, Santa Rosa, CA 95401, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 38.4370417,
+          "lng" : -122.721297
+        },
+        "viewport" : {
+          "northeast" : {
+            "lat" : 38.4384389802915,
+            "lng" : -122.7199817697085
+          },
+          "southwest" : {
+            "lat" : 38.4357410197085,
+            "lng" : -122.7226797302915
+          }
+        }
+      },
+      "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+      "id" : "6b0c8854c9f48dfade75529c90a141dbd52e49d5",
+      "name" : "Flying Goat Coffee",
+      "opening_hours" : {
+        "open_now" : true,
+        "weekday_text" : []
+      },
+      "photos" : [
+        {
+          "height" : 2268,
+          "html_attributions" : [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/103835340099507856825/photos\"\u003eMax Infeld\u003c/a\u003e"
+          ],
+          "photo_reference" : "CmRaAAAAOtFFE065ygf8pXyUWqJYayEZ8PrxCrcr78Xs3uEKe362ZZEA8G8s0V-NwJufrFj1C891T9pG-G97t947jRKanXurtW71FuEamJosRj_lmAVctN1TMSLEaZhNwujzylgsEhCOnnUIs9EZO_3VhFWkgQ9UGhSgVz6373X4Uou5zzBA9CS7MmmfQg",
+          "width" : 4032
+        }
+      ],
+      "place_id" : "ChIJX36U0wE4hIARqS6ldFc0Pjk",
+      "price_level" : 1,
+      "rating" : 4.4,
+      "reference" : "CmRRAAAAKwCNq4gagEI95-Q9fBZjLPspkIIFuaKW9WR60-ND6MG6QebMjny_yu_EJxyozF_19bQS6tpy23y0vJVw3rkvGXgw5h-r5SgoTuKtQZr1uNUeBlNMMiChCPkuMdEgFaUiEhCAhAEOrWggDDL88mdk9C4-GhQ2HFAjl9FshuOre8rg0Dljo4yToQ",
+      "types" : [ "cafe", "food", "point_of_interest", "establishment" ]
+    },
+    {
+      "formatted_address" : "95 5th St, Santa Rosa, CA 95401, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 38.4379959,
+          "lng" : -122.7215782
+        },
+        "viewport" : {
+          "northeast" : {
+            "lat" : 38.4393031802915,
+            "lng" : -122.7201977697085
+          },
+          "southwest" : {
+            "lat" : 38.4366052197085,
+            "lng" : -122.7228957302915
+          }
+        }
+      },
+      "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+      "id" : "17a1a03837ddfa96abd0f2801f8ee50919a4462d",
+      "name" : "A'Roma Roasters Coffee & Tea",
+      "opening_hours" : {
+        "open_now" : true,
+        "weekday_text" : []
+      },
+      "photos" : [
+        {
+          "height" : 1724,
+          "html_attributions" : [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/102231241781354278328/photos\"\u003eAndrey Kurenkov\u003c/a\u003e"
+          ],
+          "photo_reference" : "CmRaAAAAoixJt53FOHMdwLSFPX_YAm-f8SgUZjA2ywjZdcGRH7GR95fZGrda5y3bUerhanEtJz3j_DNLxlszOFlOVqdKhjJbbUKjujVP1e2V8Q7I6vqps3FEpmAhPXlpQ7yWWnu7EhAqlJShmrGgXnGvU3c0k5AEGhTCh3T2w1M6CsPbxMYFWO1BVDzIow",
+          "width" : 3065
+        }
+      ],
+      "place_id" : "ChIJ8f2_swE4hIAR0kU7BeYGU9Q",
+      "price_level" : 1,
+      "rating" : 4.3,
+      "reference" : "CmRSAAAAEOqOCcm-EAOxE1UJ5o17vrs6HsTDlG2rz4mhG0tzZgRVHRme2pDiCfyIeyWBHheGoUBfrTGSFr7Mz54hJN-pisAV1PaWW4sl8nG55N_vBEx-XbIlugRn0sjHtlUhVJkAEhAF2Jp4eDcPuzjeFjIoUkE-GhTvY5fHD6dO4bXbp_suU_wWOIgvSQ",
+      "types" : [ "cafe", "food", "store", "point_of_interest", "establishment" ]
+    },
+    {
+      "formatted_address" : "1015 4th St, Santa Rosa, CA 95404, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 38.4438134,
+          "lng" : -122.7071068
+        },
+        "viewport" : {
+          "northeast" : {
+            "lat" : 38.4450923302915,
+            "lng" : -122.7057046697085
+          },
+          "southwest" : {
+            "lat" : 38.4423943697085,
+            "lng" : -122.7084026302915
+          }
+        }
+      },
+      "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+      "id" : "23eeda05bf6f67c1241ed225a60e83212a600dac",
+      "name" : "Soco Coffee",
+      "opening_hours" : {
+        "open_now" : true,
+        "weekday_text" : []
+      },
+      "photos" : [
+        {
+          "height" : 2448,
+          "html_attributions" : [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/112048956938935228543/photos\"\u003eJose Riera\u003c/a\u003e"
+          ],
+          "photo_reference" : "CmRaAAAAdKYQW90RwxDTCte6xbXte-b6g_xpx0gUm1juMJyuyMcuxaOrh-BfW85c1RBmRLaK4hnKDUmqY10-683tJobAMla2pJnGFW9r2kSQXR0ABS8HORBw7Npp5dq0p20FQFC1EhAGOp2GcDiaTgpuDM7sgN93GhTD94m3cYDgg7d7019_GZWlXwywEQ",
+          "width" : 3264
+        }
+      ],
+      "place_id" : "ChIJhcLBzfxHhIARrMRtpZzC-2E",
+      "rating" : 4.3,
+      "reference" : "CmRRAAAAQv1UbBZfDOJG6J23I0GEbqsw6aYKhin0zsHfHlwkP48C8NaPCylRQYB7BOeUsaYoRsxnSs8j7laRPSZ4ptY5FfvKpXs3tbIypTKbyweGpFOrDqa4CQsWfCby9wcMlVT5EhAiNrKqfVwrsOQnbBZ3TvlkGhT78PpaZds_njBQAvl0JQY_eAi0aQ",
+      "types" : [ "cafe", "food", "store", "point_of_interest", "establishment" ]
+    },
+    {
+      "formatted_address" : "300 S A St, Santa Rosa, CA 95401, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 38.433973,
+          "lng" : -122.714743
+        },
+        "viewport" : {
+          "northeast" : {
+            "lat" : 38.4352969802915,
+            "lng" : -122.7135722197085
+          },
+          "southwest" : {
+            "lat" : 38.4325990197085,
+            "lng" : -122.7162701802915
+          }
+        }
+      },
+      "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+      "id" : "c98d915063ef60b06abca9c04fefd5e9f3245562",
+      "name" : "Atlas Coffee Company",
+      "opening_hours" : {
+        "open_now" : false,
+        "weekday_text" : []
+      },
+      "photos" : [
+        {
+          "height" : 4048,
+          "html_attributions" : [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/108712134201865633869/photos\"\u003eBradley Williams\u003c/a\u003e"
+          ],
+          "photo_reference" : "CmRaAAAAaTAUxcNp9HDP59F_TMB5RwMtcuWOmBGbX76ezw0gwn-sZnGhoLasECloBo7vJev6VMGxZZRAJF2bL3nuDwt0I4H6jznYr62MM5OjDHzjU6zGcTWNDuTMpULR9xq0gPr4EhD8KcxgYE7AzvwFkaozfF37GhQsxQ4wAiNJ_dctmLHa8vdDSGlg8w",
+          "width" : 3036
+        }
+      ],
+      "place_id" : "ChIJT-iTfgFIhIAROx6s_xZob30",
+      "rating" : 4.6,
+      "reference" : "CmRRAAAA2VQn3mPVzURNcfXW3uQhiBsDQX2O7QK3N_GQNUO0lW6W-bopKaFUS_xAHZhgrd4GXLExWEAEL6YUeRT7SmV60Ktzc9tQK4XetAFf8qC1byiOFxyKKJnudRkahpasQv1PEhAA63H3pYTCJUVxp3bVoTy7GhRJunUvgzPUxiqo8VbLadIVVJL4mQ",
+      "types" : [ "cafe", "food", "store", "point_of_interest", "establishment" ]
+    },
+    {
+      "formatted_address" : "490 Mendocino Ave, Santa Rosa, CA 95401, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 38.44246,
+          "lng" : -122.715088
+        },
+        "viewport" : {
+          "northeast" : {
+            "lat" : 38.44374363029149,
+            "lng" : -122.7138900197085
+          },
+          "southwest" : {
+            "lat" : 38.44104566970849,
+            "lng" : -122.7165879802915
+          }
+        }
+      },
+      "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+      "id" : "32f2e38d9a84fd000ab2c10459356de4aa971952",
+      "name" : "Holy Roast Cafe",
+      "opening_hours" : {
+        "open_now" : false,
+        "weekday_text" : []
+      },
+      "photos" : [
+        {
+          "height" : 683,
+          "html_attributions" : [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/114477375116861217031/photos\"\u003eHoly Roast Cafe\u003c/a\u003e"
+          ],
+          "photo_reference" : "CmRaAAAABeeixWlckOHl_SL2iaQX0OBHls2whVzB7QtIlqUnZGYynvZH0S9hbAWwR7BZohCyRXXclyhiF64IOYd10jE4wZT6biSKfxbESo6RonaD7ER4vsKMVd4l66uqBvgTSt06EhAHLzADZVVEyoX2HWCT-Z8ZGhTlDwkq81ds04RFM-DU4Iw9kf3vZQ",
+          "width" : 809
+        }
+      ],
+      "place_id" : "ChIJJTDp2_5HhIAR3Vzgq-yblVo",
+      "rating" : 4.4,
+      "reference" : "CmRRAAAABcBj15UZs9iunBGX2pY2suOmA8Vr6aHpyu0p-8SzLBQh-YEXxsPfTer7swSJSQNabv-yG8pVuijW0wLUxiA3iE3RxTybez0xmh-Tm1XlnV8aHOY-ivYpTSS0utFFojXBEhDp5Gnt54pRLiTxO2FnEEHSGhT-qbp4E5T9FBezJtstwlJdNidbUA",
+      "types" : [
+        "cafe",
+        "restaurant",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ]
+    },
+    {
+      "formatted_address" : "555 Healdsburg Ave, Santa Rosa, CA 95401, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 38.4433107,
+          "lng" : -122.7180961
+        },
+        "viewport" : {
+          "northeast" : {
+            "lat" : 38.4445949302915,
+            "lng" : -122.7167982697085
+          },
+          "southwest" : {
+            "lat" : 38.4418969697085,
+            "lng" : -122.7194962302915
+          }
+        }
+      },
+      "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+      "id" : "a5886d51f1a4f0f0d0de1889e911dcaa63913850",
+      "name" : "Brew",
+      "opening_hours" : {
+        "open_now" : true,
+        "weekday_text" : []
+      },
+      "photos" : [
+        {
+          "height" : 960,
+          "html_attributions" : [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/108772767418560529608/photos\"\u003eBrew\u003c/a\u003e"
+          ],
+          "photo_reference" : "CmRaAAAAP5PGtWUuHQf1ezs4jGKS0Pmse-pnkQ4d7A82MKBAInVL_MK6vOq_cyqVueWQpSuGezNybrxKs3UysTqvDdLY_KfkPUd738e384ORx8aORgOnsdGcCiW4BBXLK65oG1DsEhCDj5JoX6NW6Jdi42XStQGOGhS8ra3BhAWvo0dhEvWGAK4MFC3V_g",
+          "width" : 640
+        }
+      ],
+      "place_id" : "ChIJVRploPhHhIARGg1wGjdU8TY",
+      "price_level" : 1,
+      "rating" : 4.5,
+      "reference" : "CmRRAAAA65p3-XGu3Tus2ABe8yGMTqW_JWorr6PQWWsqwhG_2IxuU7yH24WSs8zO681Lv2UicJu8MIdhjy8JPV3M5XCKbWQAHfyPu2-cjfkY803tRHe5WfPq4s56kpbz6rKGHg53EhDSr9ADZzZsjhV-QjarQifvGhRhX5kVrthIqoAeSTfk-FGmwPy0aw",
+      "types" : [
+        "cafe",
+        "bar",
+        "restaurant",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ]
+    },
+    {
+      "formatted_address" : "990 Sonoma Ave #1, Santa Rosa, CA 95404, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 38.440429,
+          "lng" : -122.701888
+        },
+        "viewport" : {
+          "northeast" : {
+            "lat" : 38.4418669302915,
+            "lng" : -122.7005776697085
+          },
+          "southwest" : {
+            "lat" : 38.4391689697085,
+            "lng" : -122.7032756302915
+          }
+        }
+      },
+      "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+      "id" : "1db6b75c646ebe792c3dd7876934f81bdac2b5f6",
+      "name" : "The Pharmacy",
+      "opening_hours" : {
+        "open_now" : false,
+        "weekday_text" : []
+      },
+      "photos" : [
+        {
+          "height" : 4618,
+          "html_attributions" : [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/102712303006406892775/photos\"\u003eCoreen Rose\u003c/a\u003e"
+          ],
+          "photo_reference" : "CmRaAAAALv2_IdRPTPcl4IrqrhuIEyEvW6RyOJZolWPZwR2RflfGMEXeDnOROaM8a_RKWUHY3J54_ju9qjxxh3M_dzlLk-p0p1SsETe71XmF2qxKvnOKRdelGNRLeJEVaofPH_92EhC7cotG8gh3bufnIgzHo01vGhQG6z8y5On7rYpmJJapBKVOxEuCaw",
+          "width" : 3464
+        }
+      ],
+      "place_id" : "ChIJMzk1gwlIhIARXJeH0e-oECE",
+      "price_level" : 1,
+      "rating" : 4.6,
+      "reference" : "CmRRAAAAr_Rky-1nwdsBv0heu7R5_8Dx_J3LLhseqoEeW0vs7z7ZezRPjq35IpzfPNRzLhiLCBT3PQg9trTz5RT0UtPzTBV-NkDlOaXURd9gUcE9oL97N3BMqbUyDI9U_eAOw2lLEhC8T1xuJiRfW4WJ3sTErjvUGhT3v9D-hEOlAm9YmtIf4uN_P4a-wg",
+      "types" : [ "cafe", "food", "point_of_interest", "establishment" ]
+    },
+    {
+      "formatted_address" : "1200 4th St, Santa Rosa, CA 95404, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 38.4457141,
+          "lng" : -122.7032656
+        },
+        "viewport" : {
+          "northeast" : {
+            "lat" : 38.4471320302915,
+            "lng" : -122.7019900697085
+          },
+          "southwest" : {
+            "lat" : 38.4444340697085,
+            "lng" : -122.7046880302915
+          }
+        }
+      },
+      "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+      "id" : "8793db645c83c079b693389146d33ea17bc66126",
+      "name" : "City Garden Doughnuts & Coffee",
+      "opening_hours" : {
+        "open_now" : false,
+        "weekday_text" : []
+      },
+      "photos" : [
+        {
+          "height" : 2988,
+          "html_attributions" : [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/105458026933401414722/photos\"\u003eMichael Mceachern\u003c/a\u003e"
+          ],
+          "photo_reference" : "CmRaAAAAh6jPTU4F7lmapqDNnBnvmBhVnW7GRljUk5srqfVToPc5CnbUNGzSPXVssrzerg2ZjV4DxI8h5WmbrlNiudEzku7eAB4MG6NvQ9wOb4Kw1MsNLMp9VvlhX_AIHLrFCFfyEhAKAMHSKq6J4h-auZ7NGQgbGhS-K5dMoeoPDDrySvpnCidUH9CaGQ",
+          "width" : 3984
+        }
+      ],
+      "place_id" : "ChIJ0Qjul-NHhIARJaQbVRkeaQc",
+      "rating" : 4.4,
+      "reference" : "CmRRAAAAAZjEPexeJjjXtXU4Os4_yAIXxuFgIYS-Cq-1V_mIvJ9jY-mI0opiIqrwM6oYstYTSafcmnVJPXOWeyDzFgV4PLD2Rtjdv6RfL_96F4uf6wMCdJreFIZSU2NgSptHBhsmEhBrwU_ea9nFGWbdFM3elgR3GhTco2qJ7nMBw8dKLhspL5MJuS7OgQ",
+      "types" : [ "cafe", "food", "store", "point_of_interest", "establishment" ]
+    },
+    {
+      "formatted_address" : "621 4th St, Santa Rosa, CA 95404, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 38.4410118,
+          "lng" : -122.7134446
+        },
+        "viewport" : {
+          "northeast" : {
+            "lat" : 38.4422541302915,
+            "lng" : -122.7120232697085
+          },
+          "southwest" : {
+            "lat" : 38.4395561697085,
+            "lng" : -122.7147212302915
+          }
+        }
+      },
+      "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+      "id" : "763a3b7bb7b43387a1ab6a68bd1dfb60fe550296",
+      "name" : "Acre Coffee",
+      "opening_hours" : {
+        "open_now" : true,
+        "weekday_text" : []
+      },
+      "photos" : [
+        {
+          "height" : 2560,
+          "html_attributions" : [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/101767906732677321146/photos\"\u003eAndrew Wallis\u003c/a\u003e"
+          ],
+          "photo_reference" : "CmRaAAAAL06Pq8bRoNlc1UYEczJAJh54jZarPaX0sejAqBy-DBoNT0pFtCl6UyCqtyqC3ZELnqcrX1_uHwcPVtlSwNEqEZMie6UcesDXqZ3mMMc2sNRfzJ0BR74to0ucJugD8AlWEhDJMayu-Q5Du3iZ8YHl_gN5GhR2Z8edE0H-2Fg3kLuxZWAoMQBAgA",
+          "width" : 1440
+        }
+      ],
+      "place_id" : "ChIJEUiKY_5HhIARNBJdGVq9svE",
+      "rating" : 4.6,
+      "reference" : "CmRSAAAA2pyH9cANioPDUd08_H08rI6Dx286aT1jaPT1kECQIIDW2dOKD5nC7FzWAFACWdw3STc6B8i7F-LeJ1z_Vb5pny5bROWBwas5ha6Kxf3ZGrZvME3bH5AKlO264fGj4_SwEhCSQbbg9mUweT6WDjhyiBElGhS76HB81yaTIzDUsM4XI4robWjSMg",
+      "types" : [ "cafe", "food", "point_of_interest", "establishment" ]
+    },
+    {
+      "formatted_address" : "540 Larkfield Center, Santa Rosa, CA 95403, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 38.501657,
+          "lng" : -122.7515412
+        },
+        "viewport" : {
+          "northeast" : {
+            "lat" : 38.5028895302915,
+            "lng" : -122.7502701697085
+          },
+          "southwest" : {
+            "lat" : 38.5001915697085,
+            "lng" : -122.7529681302915
+          }
+        }
+      },
+      "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+      "id" : "8f33f51483048343359793470ea87522395b9d1b",
+      "name" : "Blue Beagle Coffee",
+      "opening_hours" : {
+        "open_now" : false,
+        "weekday_text" : []
+      },
+      "photos" : [
+        {
+          "height" : 3024,
+          "html_attributions" : [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/114936772059058600336/photos\"\u003eelena barriga\u003c/a\u003e"
+          ],
+          "photo_reference" : "CmRaAAAAUtna4_wsxZxrbnTIhzvDeo0SucGdlSPA_IqfVENmzLwyZlbhYsOcDJD04zknHg5QBHM1b6-XE_nEQ02gADEW9JHF1_oo9DgchmwUJj7OXWwqoHr3b_3SgNXjB0vci3HzEhAYfY8RnVLOD5djyJAgIlpDGhRg26f1MzzAmhnuPSmGXoIOIM5bpQ",
+          "width" : 5376
+        }
+      ],
+      "place_id" : "ChIJ18l9Q804hIARq_H27V_OzNY",
+      "rating" : 4.5,
+      "reference" : "CmRSAAAAfwkHgdx8bIuChZYgJYS5dfQzQt6cd2WhDcvTKG67Ans5KV-PLUjGm6At8tfdPOriKWZEsul9YsCK1INm3LEYd5QjWS-cBVPc5Q-rOxeMUXfGWqmDAcYuqNqyK76sHv32EhBO4fQa_TmBbq3odh-wMingGhS3qN19E1MptHiCWY4hxO4y9Q1mhg",
+      "types" : [ "cafe", "food", "store", "point_of_interest", "establishment" ]
+    },
+    {
+      "formatted_address" : "1300 Mendocino Ave, Santa Rosa, CA 95401, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 38.453141,
+          "lng" : -122.717038
+        },
+        "viewport" : {
+          "northeast" : {
+            "lat" : 38.4544950302915,
+            "lng" : -122.7158833697085
+          },
+          "southwest" : {
+            "lat" : 38.4517970697085,
+            "lng" : -122.7185813302915
+          }
+        }
+      },
+      "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+      "id" : "2b5b27d77e4e89973ae8708e29cedf76ae2c7520",
+      "name" : "Dutch Bros",
+      "opening_hours" : {
+        "open_now" : true,
+        "weekday_text" : []
+      },
+      "photos" : [
+        {
+          "height" : 1080,
+          "html_attributions" : [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/111849599518371324457/photos\"\u003eRio Smith\u003c/a\u003e"
+          ],
+          "photo_reference" : "CmRaAAAACVUAzZtXJ0vT8pXrKP-tieSMccwn1ZRIcsxLXXqaN2z9UJtTmOLuMVTH46SVaVY9IH2K6L1OZPwFyqgqDP1YQaqUo6FYaFWSc-NlVO_rApyEk1fi0lmiYl2tQm8D-qUXEhAvpZfwn88y297AcbX4UWd0GhRW-vVZY9IEc5VB4xkxFbeNCL9fkQ",
+          "width" : 1920
+        }
+      ],
+      "place_id" : "ChIJIe2tlPVHhIARTv1b7f7Oo_A",
+      "price_level" : 2,
+      "rating" : 4.6,
+      "reference" : "CmRSAAAAk9N6MM3sFpr6NkxFclOtuFPb9M2MTGYS7znhi52Lx_SJFxcGgAnOjY9VXuFLasGeAReptFKxR1fttLTxyti-4IU-yRcWD89mIVWpVNQ7c2umcmWJDy-MiH5de4nPbWKZEhANswI1SbxUYpQYNGnQilKtGhTUS_WRPsY17tlckRnpvXOPGixZ5A",
+      "types" : [ "cafe", "food", "store", "point_of_interest", "establishment" ]
+    },
+    {
+      "formatted_address" : "200 D St, Santa Rosa, CA 95404, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 38.44106729999999,
+          "lng" : -122.7121292
+        },
+        "viewport" : {
+          "northeast" : {
+            "lat" : 38.4423891302915,
+            "lng" : -122.7108396697085
+          },
+          "southwest" : {
+            "lat" : 38.4396911697085,
+            "lng" : -122.7135376302915
+          }
+        }
+      },
+      "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+      "id" : "b73c4e84e94e4d37adece857a021cd235815ea3f",
+      "name" : "Starbucks",
+      "opening_hours" : {
+        "open_now" : true,
+        "weekday_text" : []
+      },
+      "photos" : [
+        {
+          "height" : 794,
+          "html_attributions" : [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/113150402860297112705/photos\"\u003eStarbucks\u003c/a\u003e"
+          ],
+          "photo_reference" : "CmRaAAAAKbIdZ7kzjLjkas21qiccVCCE-WeElH7OMaxN_M1qx0c5D0MxG3wgtI2VOnudpwz-ng-LuCRzfa90Ws5HVpeIem37BE_FZ1Ct6OH6P34icJn5zq4gI96ViJgb1s-D8Xl6EhCY7S7WAo55qPpirA1A6I5KGhRttYepE-i-LjqPopgqPdPFqnqPTg",
+          "width" : 1415
+        }
+      ],
+      "place_id" : "ChIJyXO02_1HhIAR5kmzYhQnh4M",
+      "price_level" : 2,
+      "rating" : 3.7,
+      "reference" : "CmRSAAAA3hGfj_Nrs0B8tjtS8jZmA0qIRnrBwwI4o-OsaekUIf20hUNyBnak2rOWfY_8UUNVhR6iDIWl7UHqUcsqLnFXj0DQ5X13xw0u4mHE984HyqwUoPquXW-1Xl1-la1VWmVqEhBvdHICwDU8D-wxh2jVzMAwGhSYjM2gRDtv0YcHflPx2TC708D1ww",
+      "types" : [ "cafe", "food", "store", "point_of_interest", "establishment" ]
+    },
+    {
+      "formatted_address" : "5491 Skylane Blvd #140, Santa Rosa, CA 95403, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 38.5156344,
+          "lng" : -122.7992368
+        },
+        "viewport" : {
+          "northeast" : {
+            "lat" : 38.5170093802915,
+            "lng" : -122.7977191697085
+          },
+          "southwest" : {
+            "lat" : 38.5143114197085,
+            "lng" : -122.8004171302915
+          }
+        }
+      },
+      "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+      "id" : "7e829ca9232632a12ec3fbad3db08c84403ec0d5",
+      "name" : "Bella Rosa Coffee Company",
+      "opening_hours" : {
+        "open_now" : false,
+        "weekday_text" : []
+      },
+      "photos" : [
+        {
+          "height" : 3120,
+          "html_attributions" : [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/110292758337652825455/photos\"\u003eMike Lee\u003c/a\u003e"
+          ],
+          "photo_reference" : "CmRaAAAAtX__7Qv8bgZF3Oln2Ofh7u2bPeJyjojl0TalPkbxGNOLGJWrIBRc-awRQmjhWNVb421dkJsHhdPsw7DWBbqDJfdbdE35J7qwcfZVvAk4m3159R8UTnKkf7ud4GT_GvH2EhDfZS6-t2tZz6xdzN_qkxd7GhTk-UMKsD6ujTi2WQPolB88YPFSaQ",
+          "width" : 4160
+        }
+      ],
+      "place_id" : "ChIJs1gRMoU-hIARggUpQgBn7Os",
+      "rating" : 4.8,
+      "reference" : "CmRSAAAAQLBWcCKZ_dm2adKjVvtjSA9raxu4mIkZfFsCu1JneTjVkdbKLGOFXlSkikLGPrwCg5y739smAFy7viINDR-o_jCCMWu_mifTARvoYEnqpFNsn6GJQfl2T23vXx4H9itgEhC1r4zxrYBeH_Ug4v3v9OW2GhQZm7KdAfZQN9_vF7q5WKdjpaskzQ",
+      "types" : [ "cafe", "food", "store", "point_of_interest", "establishment" ]
+    },
+    {
+      "formatted_address" : "90 Mark West Springs Rd # 100, Santa Rosa, CA 95403, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 38.4965919,
+          "lng" : -122.7481357
+        },
+        "viewport" : {
+          "northeast" : {
+            "lat" : 38.49813178029149,
+            "lng" : -122.7469092697085
+          },
+          "southwest" : {
+            "lat" : 38.4954338197085,
+            "lng" : -122.7496072302915
+          }
+        }
+      },
+      "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+      "id" : "57dc7fdba606eac2e35e2f9a78721f86c77b991e",
+      "name" : "Bad Ass Coffee Mark West Springs",
+      "opening_hours" : {
+        "open_now" : false,
+        "weekday_text" : []
+      },
+      "photos" : [
+        {
+          "height" : 2988,
+          "html_attributions" : [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/106648828488294325565/photos\"\u003eSean Haggerty\u003c/a\u003e"
+          ],
+          "photo_reference" : "CmRaAAAA1FLVsjoTU8SYwLj_zaXbSHn1exS7V6d6A2TAwcrYO1-SCgQt0BGGShcAU7iR9tfQ2BGFSa1RCFzJX4JDiqfaqczwCHNETRhd3GW3Sk-pEGcy0jaDUE4B6cFpFufndbdXEhDRlISWlyZyn4rMOVFNHc94GhR0MZ9BJzhX7KXADtsYmJURYHIkSg",
+          "width" : 5312
+        }
+      ],
+      "place_id" : "ChIJ37Wf-c44hIAREQnaLz_tg3g",
+      "price_level" : 1,
+      "rating" : 4.2,
+      "reference" : "CmRRAAAAJ7iFSwluAD82ldeI7XCfV69oIuYQUAZhg3ngwu69cYs-KG2-kvwZWMX2XVGcrT3-p8tHf1Me1yJ5CeqNz1m6IxcrtJNb_Z2U1TR02FQbLHJJYaDkgEdug0pbI5342tqgEhD-vwFblw7biKT6pkdxnSDmGhQm0yGJO5YEWboEHydsWErRIXh9Tg",
+      "types" : [ "cafe", "food", "store", "point_of_interest", "establishment" ]
+    },
+    {
+      "formatted_address" : "2755 Yulupa Ave, Santa Rosa, CA 95404, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 38.4263952,
+          "lng" : -122.668503
+        },
+        "viewport" : {
+          "northeast" : {
+            "lat" : 38.4279847302915,
+            "lng" : -122.6667900197085
+          },
+          "southwest" : {
+            "lat" : 38.4252867697085,
+            "lng" : -122.6694879802915
+          }
+        }
+      },
+      "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+      "id" : "b4b6ba312624faa742304d61c4f9bad41eb7dc41",
+      "name" : "Starbucks",
+      "opening_hours" : {
+        "open_now" : true,
+        "weekday_text" : []
+      },
+      "photos" : [
+        {
+          "height" : 289,
+          "html_attributions" : [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/103865551542346502992/photos\"\u003eStarbucks\u003c/a\u003e"
+          ],
+          "photo_reference" : "CmRaAAAAygmubLtzSrYrd8k2UX2wyc7HcrgdlUutrMSXO74eX3B2yVeVBXOrAFA5rNM8sPjFDqOspe7p8KxYk8eM4Cy1-npRbgcoqR5w3WZKX_JSRWfnHowuWZ5uYxKIcKX2TYnwEhDlo_QWVbv-X-QvUitZIjQmGhSn0CLmlSDujQVUfNIBUcZu8GeI-Q",
+          "width" : 512
+        }
+      ],
+      "place_id" : "ChIJozYuOvdIhIARyJLUHdsHpZk",
+      "price_level" : 2,
+      "rating" : 4.2,
+      "reference" : "CmRSAAAA3fPo-t-GEbHNovJR2Ms40RtKVWfB_S0AmNMzMBBILqKJsiz_feEoy635wPV6L9rQB8jfqSrxUjtXj1cEGzqTEo4WI4XnnKIsl0yvOoNfZfH5nHt1Qz3wXl_un4jcYIDTEhCs57JVTQKFRFi4GImq_-3MGhRIXBA_B3WKYxT01ByGgQNqgk0VgQ",
+      "types" : [ "cafe", "food", "store", "point_of_interest", "establishment" ]
+    },
+    {
+      "formatted_address" : "1810 Mendocino Ave, Santa Rosa, CA 95401, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 38.4578055,
+          "lng" : -122.7168898
+        },
+        "viewport" : {
+          "northeast" : {
+            "lat" : 38.4591611802915,
+            "lng" : -122.7157284197085
+          },
+          "southwest" : {
+            "lat" : 38.4564632197085,
+            "lng" : -122.7184263802915
+          }
+        }
+      },
+      "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+      "id" : "10948ee66165378fb7d7a45aef0f8b81dad76e74",
+      "name" : "My Friend Joe Coffee",
+      "opening_hours" : {
+        "open_now" : false,
+        "weekday_text" : []
+      },
+      "photos" : [
+        {
+          "height" : 2988,
+          "html_attributions" : [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/102030541301941667051/photos\"\u003eLinda Job\u003c/a\u003e"
+          ],
+          "photo_reference" : "CmRaAAAAVvzZkLiQNe8mf5UMvzi59fhmcXh-i1LKoJjW7OCAUNlhjkUw8XcVx75_mU5NVzD_ncfpMyS_rlpOejgmbnghH2HR4Dd2TzV3LqEJKjnzzi91ZtdHNiOZsJu7mvBbAZSjEhBoNb9ewQF-YLT-d203u0r8GhTvxRk7BQGi4CkragkwTYcajcWtHA",
+          "width" : 3984
+        }
+      ],
+      "place_id" : "ChIJLSNKlopHhIAR793QQ0J4y0w",
+      "price_level" : 1,
+      "rating" : 4.3,
+      "reference" : "CmRRAAAAitwETISd5bQTGlYtPqSIv7MyufaVilNyGh_Q9SnzmY0Ie6_50qjGBtRZqaFnJsRG2R1hpmbEGOjxJU7S0PzAOOPoQyvaGttSQ7jipLdA4CdX_BeHe5QL6Sq6Sitclm6QEhBoOqEgz1kM-u_BRmeRJy2NGhT38P2us78teEPz8V5RvKI7UHe4sg",
+      "types" : [ "cafe", "food", "store", "point_of_interest", "establishment" ]
+    },
+    {
+      "formatted_address" : "1071 Santa Rosa Plaza, 1015, Santa Rosa, CA 95401, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 38.4395677,
+          "lng" : -122.7162365
+        },
+        "viewport" : {
+          "northeast" : {
+            "lat" : 38.44091668029149,
+            "lng" : -122.7148875197085
+          },
+          "southwest" : {
+            "lat" : 38.4382187197085,
+            "lng" : -122.7175854802915
+          }
+        }
+      },
+      "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+      "id" : "0d0cbd41c556dce1d68b61a43cbb82fc8d5f10f3",
+      "name" : "Starbucks",
+      "opening_hours" : {
+        "open_now" : true,
+        "weekday_text" : []
+      },
+      "photos" : [
+        {
+          "height" : 289,
+          "html_attributions" : [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/108048979838868866312/photos\"\u003eStarbucks\u003c/a\u003e"
+          ],
+          "photo_reference" : "CmRaAAAADF6IKy8TiDe_MV48rOZ-IRDW1zgHUc5ITQR49jmFcoloRujUoES-SwOT0ZSdyLOP3U6dhXwQxV4sSuiBlyZ0_J4zP4GxGJUhvcM6gGKOATrZqtulGuazMubqqP-9p28iEhAskzYLOAKmOtoyDIhxW_VyGhQ5SUwmkuIzNsGIJGzkkeyDHQ4GrA",
+          "width" : 512
+        }
+      ],
+      "place_id" : "ChIJhaZUaf9HhIARclH_XPWKpFM",
+      "price_level" : 2,
+      "rating" : 3.4,
+      "reference" : "CmRRAAAAFAnzmvL4nYbk1sKI3CmGdZ-bIU1IN9VLZHk68m9YcI18IECgYQU6qS1WQ2fvp27Gs9pS4SgMq_ClRghXqUMUumccFGRukLmvpB6JirRRm0tTEZQp3f2Hlg8bH73debW7EhA4vv78-Hnc3LLTFkb9PJqvGhTX9JXX8ShNmemc2FBePzZa6md3QA",
+      "types" : [ "cafe", "food", "store", "point_of_interest", "establishment" ]
+    },
+    {
+      "formatted_address" : "358 Coddingtown Center, Santa Rosa, CA 95401, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 38.4582314,
+          "lng" : -122.730466
+        },
+        "viewport" : {
+          "northeast" : {
+            "lat" : 38.45958038029149,
+            "lng" : -122.7291170197085
+          },
+          "southwest" : {
+            "lat" : 38.45688241970849,
+            "lng" : -122.7318149802915
+          }
+        }
+      },
+      "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+      "id" : "b42562e8cb787753e6c0d265bc1450e8b172723d",
+      "name" : "Starbucks",
+      "opening_hours" : {
+        "open_now" : true,
+        "weekday_text" : []
+      },
+      "photos" : [
+        {
+          "height" : 289,
+          "html_attributions" : [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/113438439195844523963/photos\"\u003eStarbucks\u003c/a\u003e"
+          ],
+          "photo_reference" : "CmRaAAAA7FQ7w1qe0NOUN60080rAIqbo8ydlcXTJWegj8RoMIijBVywM27chnnSwx417dUh4M_Ouma67YsqTi9zSpUry5KTHQDEhyxIWLq_Ry4tqbTDTSxwFfYvcVgz4USBXahvTEhCUUkZ4dnidP_ItLds5Ac6EGhQyYiu2fa05jkW4v-SWIdk4oBF04A",
+          "width" : 512
+        }
+      ],
+      "place_id" : "ChIJFep6EG44hIARw3haqmVoFiM",
+      "price_level" : 2,
+      "rating" : 3.9,
+      "reference" : "CmRRAAAA6OsYYcVN0jLl6aYRsXS8LEt33BoNpAIcV_xp62yrYoYaFuNUDFiSZQesLuylHrIyvCvBtRYNpJFZTFSbjFH1ItcVgu7X-cmiZLSJxCGRWgUrLChOIbfeShzA-HAsIe18EhC2P0EkUnbx3V5fJ1lvmKqcGhTK8wMvbcEB6CtaG_ZFYNNAuYsyrA",
+      "types" : [ "cafe", "bar", "food", "store", "point_of_interest", "establishment" ]
+    },
+    {
+      "formatted_address" : "2484 W 3rd St, Santa Rosa, CA 95401, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 38.4375953,
+          "lng" : -122.7698587
+        },
+        "viewport" : {
+          "northeast" : {
+            "lat" : 38.4391247802915,
+            "lng" : -122.7685103697085
+          },
+          "southwest" : {
+            "lat" : 38.4364268197085,
+            "lng" : -122.7712083302915
+          }
+        }
+      },
+      "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+      "id" : "02f4f52accaf61654437e69e161eb41f30d5b890",
+      "name" : "Kevlar Cafe",
+      "opening_hours" : {
+        "open_now" : false,
+        "weekday_text" : []
+      },
+      "photos" : [
+        {
+          "height" : 556,
+          "html_attributions" : [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/105316085883026234097/photos\"\u003eKevlar Cafe\u003c/a\u003e"
+          ],
+          "photo_reference" : "CmRaAAAAqwOnZvlU8hb7kENa3C_AsSYCcz0pxdcM6qVzG_CPCc3TistBIqZa41bWT5sDijts5DeX_TSZKeHjf8htXJYESEGmlcBkcyoyaihGXM4bFWntqWBoONdAnO4bjfyCCauFEhDymLt5EjIrOar6RdJE-yvGGhQ4abdbzT7LA0IaLinClKKNendfNw",
+          "width" : 800
+        }
+      ],
+      "place_id" : "ChIJWcP7dsk5hIARFztRhMiDs-4",
+      "rating" : 3,
+      "reference" : "CmRSAAAARkcmRh1b6FK70k98pVEtHAu63cFjGOV8JIc2V4BBnIwWj_ovBWunGnqmg2jozUjzWrQgk-2Hcob7Bm7cXAwBhrEFPRgO5CuncyZae6LISIV68dHsSDMNAz8-c9t0IpSoEhCN6Lq5FXh6hB23OQinfleHGhQIN_u2ZeSAzcSFlZckb3Edc0aBXA",
+      "types" : [ "cafe", "food", "point_of_interest", "establishment" ]
+    }
+  ],
+  "status" : "OK"
+}

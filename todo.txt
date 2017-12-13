@@ -1,0 +1,23 @@
+
+CS 17.11 Final Project To-Do
+
+Priority Tasks
+    - Implement asynchronous API calls and grid population.
+    - Have initial view dimensions based on user's screen dimensions.
+    - Handle empty results.
+    - Add Placeholder values.
+    - Error handling.
+
+Secondary Tasks
+    - Cycle between API Keys if daily quota met.
+    - Add placeholder for results section.
+    - Fade in results.
+    - Fade out results.
+    - Disable screen resizing.
+
+Before Submitting
+    - Run on three other computers. Have friends clone repo.
+    - Remove unnecessary import statements.
+    - Make code more D.R.Y.
+    - Add documentation.
+    - Add markdown readme.
