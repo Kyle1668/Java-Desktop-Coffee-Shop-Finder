@@ -127,6 +127,9 @@ public class FXMLViewController implements Initializable
 
         gridPaneList.add(newCellLabel, colIndex, rowIndex + 1);
 
+        // Prints type of element
+        // System.out.println(gridPaneList.getChildren().get(colIndex + rowIndex).getClass().getName());
+
     }
 
     private ImageView initImage(ArrayList<Place> places, int rowIndex)
